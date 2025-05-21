@@ -2,4 +2,19 @@ img {
     background-size: cover;
     max-height: 750px;
     width: 100%;
+    position: absolute;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    
+}
+
+div img {
+    max-width: 88px;
+    max-height: 88px;
+    object-fit: cover;
+    border-radius: 50%;
 }
