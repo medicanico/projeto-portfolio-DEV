@@ -1,14 +1,12 @@
-.bg-img {
+body {
+    background-image: url(/assets/images/Background_Intro.png);
     background-size: cover;
-    max-height: 750px;
-    width: 100%;
-    display: flex;
-    position: absolute;
+    height: 750px;
+    
 }
 
 .perfil {
     display: flex;
-    position: relative;
     justify-content: center;
     padding-top: 120px;
 }
@@ -22,24 +20,35 @@
     padding: 2px;
 }
 
-.p p {
+.h3 h3 {
     display: flex;
-    position: relative;
     justify-content: center;
     padding-top: 56px;
     font: var(--subtitle);
     color: var(--gray-500);
 }
 
-.p p strong {
+.h3 h3 strong {
     color: var(--red);
-    padding-inline: 5px;
+    padding-inline: 10px;
 }
 
 .h1 h1 {
     display: flex;
-    position: relative;
     justify-content: center;
+    padding-top: 8px;
     font: var(--title-lg);
     color: var(--gray-600);
+}
+
+#p {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font: var(--text-sm);
+    color: var(--gray-400);
+}
+
+p {
+    max-width: 680px;
 }
