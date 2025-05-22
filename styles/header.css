@@ -52,3 +52,28 @@ body {
 p {
     max-width: 680px;
 }
+
+.tech-stack {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+    padding-top: 75px;
+}
+
+.tech {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    background-color: var(--gray-300);
+    color: var(--gray-500);
+    font: var(--text-md);
+}
+
+.tech img {
+    width: 20px;
+    height: 20px;
+}
