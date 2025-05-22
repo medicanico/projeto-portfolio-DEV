@@ -77,3 +77,9 @@ p {
     width: 20px;
     height: 20px;
 }
+
+.seta {
+    display: flex;
+    justify-content: center;
+    padding-top: 94px;
+}
