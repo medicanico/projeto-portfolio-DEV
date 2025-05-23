@@ -1,5 +1,6 @@
 footer {
-    background-color: var(--gray-200);
+    background-image: url('../assets/images/Background_Contacts.png');
+    background-size: cover;
     height: 787px;
 }
 
