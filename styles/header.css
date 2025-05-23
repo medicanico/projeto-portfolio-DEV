@@ -49,7 +49,7 @@ header {
     color: var(--gray-400);
 }
 
-p {
+.p-hea {
     max-width: 680px;
 }
 
