@@ -1,6 +1,6 @@
 section {
     background-color: var(--gray-200);
-    height: 917px;
+    height: 600px;
     padding-inline: 120px;
 }
 
@@ -19,4 +19,55 @@ h2 {
     font: var(--title-md);
     color: var(--gray-600);
     padding-top: 8px;
+}
+
+.cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+    padding-top: 56px;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 330px;
+    background-color: var(--gray-300);
+
+}
+
+.card:hover {
+    border: solid 1px var(--gray-600);
+}
+
+.thumb {
+    height: 156px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumb img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.info {
+    padding: 1rem;
+}
+
+.info h4 {
+    margin: 0;
+    font: var(--title-sm);
+    color: var(--gray-600);
+}
+
+.info p {
+    margin-top: 0.5rem;
+    font: var(--text-sm);
+    color: var(--gray-500);
 }
