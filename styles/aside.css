@@ -3,3 +3,46 @@ aside {
     height: 480px;
     padding-inline: 120px;
 }
+
+.devices {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+    padding-top: 56px;
+}
+
+.device {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 280px;
+    height: 155px;
+    border: solid 1px var(--gray-500);
+}
+
+.box {
+    height: 65px;
+    display: flex;
+}
+
+.box img {
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+.texts {
+    padding: 1rem;
+}
+
+.texts h4 {
+    margin: 0;
+    font: var(--title-sm);
+    color: var(--gray-600);
+}
+
+.texts p {
+    margin-top: 0.5rem;
+    font: var(--text-sm);
+    color: var(--gray-500);
+}
