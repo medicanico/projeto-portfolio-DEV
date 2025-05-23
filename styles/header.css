@@ -1,5 +1,5 @@
 header {
-    background-image: url(/assets/images/Background_Intro.png);
+    background-color: var(--gray-200);
     background-size: cover;
     height: 750px;
     
