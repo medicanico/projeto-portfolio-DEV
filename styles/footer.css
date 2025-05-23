@@ -31,7 +31,7 @@ ul {
     padding-inline: 560px;
 }
 
-ul li span {
+ul li .sp {
     padding-left: 10px;
 }
 
@@ -45,4 +45,9 @@ ul li a {
     text-decoration: none;
     font: var(--text-sm);
     color: var(--gray-500);
+    
+}
+
+ul li a:hover {
+    border: solid 1px #23bbbe;
 }
