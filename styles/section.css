@@ -1,0 +1,22 @@
+section {
+    background-color: var(--gray-200);
+    height: 917px;
+    padding-inline: 120px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font: var(--subtitle);
+    color: var(--red);
+    padding-top: 72px;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font: var(--title-md);
+    color: var(--gray-600);
+    padding-top: 8px;
+}
